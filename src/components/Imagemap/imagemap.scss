@@ -1,0 +1,28 @@
+.imageDiv {
+  margin-top: 80px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#controller {
+  width: 628px;
+  height: 416px;
+  align-self: center;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  color:red;
+  top: 50%;
+  left: 48.5%;
+}
+#text {
+  flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
