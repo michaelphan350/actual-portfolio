@@ -61,7 +61,6 @@ const Imagemap = () => {
             <li>
             <Link to="/contacts">Contacts</Link>
             </li>
-
         </ul>
         </figcaption>
             </div>
