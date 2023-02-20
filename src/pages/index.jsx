@@ -1,9 +1,9 @@
-import Nav from "../components/Nav/Nav";
+// import Nav from "../components/Nav/Nav";
 import Imagemap from "../components/Imagemap/Imagemap";
-import Menu from "../components/menu/Menu";
+// import Menu from "../components/menu/Menu";
 import {useState} from "react"
 
-const Home = () => {
+/*const Home = () => {
 
     const [menuOpen , setMenuOpen ]= useState(false)
     return (
@@ -12,6 +12,17 @@ const Home = () => {
             <Menu menuOpen = {menuOpen} setMenuOpen={setMenuOpen}/>
             <div className="imageDiv">
               <Imagemap />
+            </div>
+        </div>
+    )
+}*/
+
+const Home = () => {
+    const [menuOpen , setMenuOpen ]= useState(false)
+    return (
+        <div className="App">
+            <div>
+              <Imagemap menuOpen = {menuOpen} setMenuOpen={setMenuOpen}/>
             </div>
         </div>
     )

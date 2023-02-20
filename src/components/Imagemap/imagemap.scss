@@ -1,10 +1,8 @@
 .imageDiv {
-  margin-top: 80px;
   text-align: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
-
 }
 
 #controller {
@@ -17,12 +15,39 @@
 figcaption {
   position: absolute;
   color:red;
-  top: 50%;
-  left: 48.5%;
+  top: 18%;
+  left: 12%;
+  display: none;
+  text-decoration: none;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 300;
+    color: Black;
+    width: 50%;
+
+    li{
+        margin-bottom: 25px;
+
+        a {
+            font-size: inherit;
+            color: inherit;
+            text-decoration: none;
+        }
+
+
+      }
+    }
 }
 #text {
   flex-direction: column;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+}
+#aText {
+  font-size: 25px;
 }

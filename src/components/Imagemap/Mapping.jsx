@@ -18,25 +18,48 @@ let Amap = () => {
 
     changeQuote();
 }
-let Bmap = "B"
-let Xmap = "X"
-let Ymap = "Y"
-let Startmap = () => {
-    var start = "";
-    function reset() {
-        document.getElementById("aText").innerHTML = start
+let Bmap = () => {
+    var colors = [
+        "blue",
+        "red",
+        "purple",
+        "cyan",
+        "grey",
+        "maroon",
+        "fusha",
+        "orange"
+    ]
+    function changeColor() {
+        let myColor = document.querySelector(".imageDiv")
+        var randomColor = Math.floor(Math.random() * (colors.length));
+        myColor.style.backgroundColor = colors[randomColor]
     }
-    reset()
+
+    changeColor();
 }
-let Menumap = () => {
+let Xmap = "You pressed the X button"
+let Ymap = "You pressed the Y button"
+let Startmap = () => {
+
     function reload () {
         window.location.reload(false)
     }
     reload ()
 }
-let Lanamap = "L. Analog"
-let Ranamap = "R. Analog"
-let Ldirmap = "L. Directional Pad"
+let Menumap = () => {
+        function menu () {
+        let myPicture = document.querySelector("#controller")
+        myPicture.style.opacity = "50%";
+        let myElement = document.querySelector("#figcaption")
+        myElement.style.display = "block";
+
+    }
+    menu();
+}
+let Lanamap = "You pressed the L. Analog stick"
+
+let Ranamap = "You pressed the R. Analog"
+let Ldirmap = "You pressed the L. Directional Pad"
 
 
 export { Amap, Bmap, Xmap, Ymap, Startmap, Menumap, Lanamap, Ranamap, Ldirmap }

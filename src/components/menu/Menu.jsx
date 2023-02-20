@@ -1,4 +1,4 @@
-import "./menu.scss"
+/* import "./menu.scss"
 import { NavLink as Link } from "react-router-dom"
 
 export default function Menu({ menuOpen, setMenuOpen}) {
@@ -22,4 +22,4 @@ export default function Menu({ menuOpen, setMenuOpen}) {
 
     </div>
   )
-}
+}*/
