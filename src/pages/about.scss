@@ -1,3 +1,12 @@
+.dark {
+    background-color: #333;
+    color: #fff;
+    }
+.light {
+    background-color: #fff;
+    color: #333;
+    }
+  
 .aboutContainer {
     display: flex;
     flex-direction: column;
@@ -6,7 +15,6 @@
     .navDiv {
         display: flex;
         flex-direction: row;
-        background-color: red;
         text-align: center;
         align-items: center;
         justify-content: flex-start;
@@ -55,7 +63,6 @@
         flex-wrap: wrap;
 
         .left {
-            background-color: yellow;
             width: 50%;
             display: flex;
             flex-wrap: wrap;
@@ -63,11 +70,33 @@
             justify-content: space-evenly;
 
             .aboutText {
-                width: 40%;
+                width: 60%;
+                height: auto;
             }
 
-            #portrait {
-                width: 50%;
+            .imgContainer {
+                display: flex;
+                height: auto;
+                width: 35%;
+                background-color: salmon;
+                justify-content: center;
+                align-items: center;
+                border-radius: 13%;
+
+                #portrait {
+                    width: 85%;
+                }
+            }
+            .strengthsDiv {
+                font-size: 15px;
+                width: 100%;
+                text-align: center;
+            }
+
+            .hobbiesDiv {
+                font-size: 15px;
+                width: 100%;
+                text-align: center;
             }
 
             .strengths { 
@@ -93,9 +122,10 @@
                 justify-content: center;
                 display: flex;
                 width: 50%;
+                height: 550px;
         
                 li {
-                    font-size: 50px;
+                    font-size: 40px;
                     margin-top: 20px;
                     margin-bottom: 20px;
         

@@ -2,12 +2,25 @@ import Typewriter from "typewriter-effect"
 import Placeholderportrait from "./assets/placeholderPortrait.png"
 import "./about.scss"
 import {NavLink as Link} from "react-router-dom"
+import React, {useState, useEffect} from "react";
 
 const About = () => {
+    const [theme, setTheme] = useState('light');
+    const toggleTheme = () => {
+        if (theme === 'light') {
+            setTheme('dark')
+        } else {
+            setTheme('light');
+        }
+    };
+    useEffect(()=> {
+        document.body.className = theme;
+    }, [theme]);
+
     return (
     <div className="aboutContainer">
             <div className="navDiv">
-                <div className="toggleBtn"><button className="dayNight">Toggle</button> </div>
+                <div className="toggleBtn"><button className="dayNight" onClick={toggleTheme}>Toggle</button> </div>
                 <div className="homeBtn"><Link to="/"><button type="button" id="homeBtn">Home button</button></Link></div>
                 <h1>About myself:</h1>
                 <div className="menuLinks">
@@ -26,14 +39,22 @@ const About = () => {
             </div>
         <div className="lrContainer">
             <div className="left">
-                <img src = {Placeholderportrait} href="" alt="Placeholder for person" id="portrait"/>
-                <p className="aboutText">Placeholder text! WOO IT WORKED</p>
+                <div className="imgContainer">
+                    <img src = {Placeholderportrait} href="" alt="Placeholder for person" id="portrait"/>
+                </div>
+                <p className="aboutText">I am a 28 year old full-stack web developer. I completed a completed a bootcamp offered through the University of Arizona where we touched on both front and back end development topics such as: Javascript, React, SQL. I'm currently planning freelancing to improve my skillset and to gather more varied experiences.</p>
+                <div className="strengthsDiv">
+                    <h2>Strengths</h2>
+                </div>
                 <ul className="strengths">
                     <li>placeholder</li>
                     <li>placeholder</li>
                     <li>placeholder</li>
                     <li>placeholder</li>
                 </ul>
+                <div className="hobbiesDiv">
+                    <h2>Hobbies</h2>
+                </div>
                 <ul className="hobbies">
                     <li>placeholder</li>
                     <li>placeholder</li>
