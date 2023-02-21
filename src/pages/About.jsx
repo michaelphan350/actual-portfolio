@@ -1,5 +1,7 @@
 import Typewriter from "typewriter-effect"
 import Placeholderportrait from "./assets/placeholderPortrait.png"
+import Sun from "./assets/sun_moon.jpeg"
+import Home from "./assets/home-button.png"
 import "./about.scss"
 import {NavLink as Link} from "react-router-dom"
 import React, {useState, useEffect} from "react";
@@ -20,8 +22,17 @@ const About = () => {
     return (
     <div className="aboutContainer">
             <div className="navDiv">
-                <div className="toggleBtn"><button className="dayNight" onClick={toggleTheme}>Toggle</button> </div>
-                <div className="homeBtn"><Link to="/"><button type="button" id="homeBtn">Home button</button></Link></div>
+                <div className="toggleBtn">
+                    <button className="dayNight" onClick={toggleTheme}>
+                        <img id="toggle" src= {Sun} alt = "moon"></img>
+                        </button> 
+                </div>
+                <div className="homeButton">
+                    <Link to="/">
+                        <button type="button" id="homeBtn">
+                            <img id ="home" src = {Home} alt= "home"></img>
+                        </button>
+                    </Link></div>
                 <h1>About myself:</h1>
                 <div className="menuLinks">
                     <ul>
@@ -47,19 +58,19 @@ const About = () => {
                     <h2>Strengths</h2>
                 </div>
                 <ul className="strengths">
-                    <li>placeholder</li>
-                    <li>placeholder</li>
-                    <li>placeholder</li>
-                    <li>placeholder</li>
+                    <li>Always striving to learn</li>
+                    <li>High attention to detail</li>
+                    <li>Team player</li>
+                    <li>Highly motivated</li>
                 </ul>
                 <div className="hobbiesDiv">
                     <h2>Hobbies</h2>
                 </div>
                 <ul className="hobbies">
-                    <li>placeholder</li>
-                    <li>placeholder</li>
-                    <li>placeholder</li>
-                    <li>placeholder</li>
+                    <li>Learning new coding systems and languages</li>
+                    <li>Creative Writing</li>
+                    <li>Working out</li>
+                    <li>Piano</li>
                 </ul>
             </div>
             <div className="right">

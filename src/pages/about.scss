@@ -1,11 +1,36 @@
 .dark {
-    background-color: #333;
+    background-color: black;
     color: #fff;
+
+        #homeBtn {
+            background-color: black;
+        }
+
+        #home {
+            filter: invert(100%)
+        }
+
+        .dayNight{
+            background-color: black;
+        }
+
+        #toggle {
+            filter: invert(125%);
+        }
     }
+
 .light {
     background-color: #fff;
     color: #333;
+
+    #homeBtn {
+        background-color: #fff;
     }
+
+    .dayNight {
+        background-color: #fff;
+    }
+}
   
 .aboutContainer {
     display: flex;
@@ -21,10 +46,30 @@
 
             .toggleBtn {
                 width: 10%;
+
+                .dayNight {
+                    border: none;
+                    padding: 0;
+                }
+
+                #toggle {
+                    width: 100%;
+                    height: 50px;
+                }
             }
 
-            .homeBtn {
+            .homeButton {
                 width: 10%;
+
+                #homeBtn {
+                    border: none;
+                    padding: 0;
+                }
+
+                #home {
+                    width: 100%;
+                    height: 30px;
+                }
             }
 
             h1 {
@@ -104,7 +149,7 @@
                 display: flex;
                 flex-direction: row;
                 width: 100%;
-                justify-content: space-evenly;
+                justify-content: space-around;
             }
 
             .hobbies { 
@@ -112,7 +157,7 @@
                 display: flex;
                 flex-direction: row;
                 width: 100%;
-                justify-content: space-evenly;
+                justify-content: space-around;
             }
         }
 
