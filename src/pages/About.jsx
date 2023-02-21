@@ -32,7 +32,8 @@ const About = () => {
                         <button type="button" id="homeBtn">
                             <img id ="home" src = {Home} alt= "home"></img>
                         </button>
-                    </Link></div>
+                    </Link>
+                </div>
                 <h1>About myself:</h1>
                 <div className="menuLinks">
                     <ul>
@@ -53,7 +54,7 @@ const About = () => {
                 <div className="imgContainer">
                     <img src = {Placeholderportrait} href="" alt="Placeholder for person" id="portrait"/>
                 </div>
-                <p className="aboutText">I am a 28 year old full-stack web developer. I completed a completed a bootcamp offered through the University of Arizona where we touched on both front and back end development topics such as: Javascript, React, SQL. I'm currently planning freelancing to improve my skillset and to gather more varied experiences.</p>
+                <p className="aboutText">I am a 28 year old full-stack web developer. I completed a completed a bootcamp offered through the University of Arizona where we touched on both front and back end development topics such as: Javascript, React, SQL. I'm currently freelancing while continually looking for jobs in order to improve my skillset and experiences.</p>
                 <div className="strengthsDiv">
                     <h2>Strengths</h2>
                 </div>
@@ -61,7 +62,7 @@ const About = () => {
                     <li>Always striving to learn</li>
                     <li>High attention to detail</li>
                     <li>Team player</li>
-                    <li>Highly motivated</li>
+                    <li>Highly motivated independent worker</li>
                 </ul>
                 <div className="hobbiesDiv">
                     <h2>Hobbies</h2>
@@ -75,6 +76,7 @@ const About = () => {
             </div>
             <div className="right">
             <span>
+                <h1>Hard Skills</h1>
                 <ul>
                     <li>
                     <Typewriter 

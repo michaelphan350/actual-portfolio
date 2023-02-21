@@ -106,6 +106,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        height: 85vh;
 
         .left {
             width: 50%;
@@ -113,6 +114,7 @@
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-evenly;
+            background-color: salmon;
 
             .aboutText {
                 width: 60%;
@@ -133,6 +135,7 @@
                 }
             }
             .strengthsDiv {
+                height: 20px;
                 font-size: 15px;
                 width: 100%;
                 text-align: center;
@@ -141,6 +144,7 @@
             .hobbiesDiv {
                 font-size: 15px;
                 width: 100%;
+                height: 20px;
                 text-align: center;
             }
 
@@ -149,25 +153,37 @@
                 display: flex;
                 flex-direction: row;
                 width: 100%;
-                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+
+                li {
+                    text-align: center;
+                    width: 25%;
+                }
             }
 
-            .hobbies { 
+            .hobbies {  
                 list-style: none;
                 display: flex;
                 flex-direction: row;
                 width: 100%;
-                justify-content: space-around;
+                align-items: center;
+
+                li {
+                    width: 25%;
+                    text-align: center;
+                }
             }
         }
 
         .right {
-                background-color: salmon;
+                background-color: rgb(164, 229, 245);
                 align-items: center;
                 justify-content: center;
                 display: flex;
                 width: 50%;
-                height: 550px;
+                height: 85vh;
+                text-align: center;
         
                 li {
                     font-size: 40px;

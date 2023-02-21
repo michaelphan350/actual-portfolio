@@ -1,3 +1,5 @@
+import Sun from "./assets/sun_moon.jpeg"
+import Home from "./assets/home-button.png"
 import "./contact.scss"
 import {NavLink as Link} from "react-router-dom"
 import React, {useState, useEffect} from "react";
@@ -17,8 +19,17 @@ const Contacts = () => {
     return (
         <div className={`contacts ${theme}`}>
              <div className="navDiv">
-                <div className="toggleBtn"><button className="dayNight" onClick={toggleTheme}>Toggle</button> </div>
-                <div className="homeBtn"><Link to="/"><button type="button" id="homeBtn">Home button</button></Link></div>
+                <div className="toggleBtn">
+                    <button className="dayNight" onClick={toggleTheme}>
+                        <img id="toggle" src= {Sun} alt = "moon"></img>
+                        </button> 
+                </div>
+                <div className="homeButton">
+                    <Link to="/">
+                        <button type="button" id="homeBtn">
+                            <img id ="home" src = {Home} alt= "home"></img>
+                        </button>
+                    </Link></div>
                 <h1>Contacts and Socials:</h1>
                 <div className="menuLinks">
                     <ul>

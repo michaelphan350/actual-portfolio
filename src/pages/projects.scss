@@ -1,52 +1,96 @@
 .dark {
     background-color: black;
     color: #fff;
+
+        #homeBtn {
+            background-color: black;
+        }
+
+        #home {
+            filter: invert(100%)
+        }
+
+        .dayNight{
+            background-color: black;
+        }
+
+        #toggle {
+            filter: invert(125%);
+        }
     }
-    .light {
+
+.light {
     background-color: #fff;
-    color: black;
+    color: #333;
+
+    #homeBtn {
+        background-color: #fff;
     }
-  
-.navDiv {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    justify-content: flex-start;
 
-        .toggleBtn {
-            width: 10%;
-        }
+    .dayNight {
+        background-color: #fff;
+    }
+}
+    .navDiv {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
 
-        .homeBtn {
-            width: 10%;
-        }
+            .toggleBtn {
+                width: 10%;
 
-        h1 {
-            width: 30%;
-        }
+                .dayNight {
+                    border: none;
+                    padding: 0;
+                }
 
-        .menuLinks {
-            width: 30%;
-            display: flex;
-            justify-content: space-evenly;
+                #toggle {
+                    width: 100%;
+                    height: 50px;
+                }
+            }
 
-            ul {
-                width:100%;
+            .homeButton {
+                width: 10%;
+
+                #homeBtn {
+                    border: none;
+                    padding: 0;
+                }
+
+                #home {
+                    width: 100%;
+                    height: 30px;
+                }
+            }
+
+            h1 {
+                width: 30%;
+            }
+
+            .menuLinks {
+                width: 30%;
                 display: flex;
-                list-style: none;
-                flex-direction: row;
-                justify-content: space-between;
+                justify-content: space-evenly;
 
-                li {
-                    margin-bottom: 0;
+                ul {
+                    width:100%;
+                    display: flex;
+                    list-style: none;
+                    flex-direction: row;
+                    justify-content: space-between;
 
-                    a {
-                        font-size: inherit;
-                        color: inherit;
-                        text-decoration: none;
+                    li {
+                        margin-bottom: 0;
+
+                        a {
+                            font-size: inherit;
+                            color: inherit;
+                            text-decoration: none;
+                        }
                     }
                 }
             }
-        }
-}
+    }
