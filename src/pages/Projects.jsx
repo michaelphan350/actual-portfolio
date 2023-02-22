@@ -3,6 +3,7 @@ import Home from "./assets/home-button.png"
 import "./projects.scss"
 import {NavLink as Link} from "react-router-dom"
 import React, {useState, useEffect} from "react";
+import Carousel, {CarouselItem} from "./Carousel"
 
 const Projects = () => {
     const [theme, setTheme] = useState('dark');
@@ -47,6 +48,13 @@ const Projects = () => {
                     </ul>
                 </div>
             </div>
+            <Carousel>
+                <CarouselItem>Item 1</CarouselItem>
+                <CarouselItem>Item 2</CarouselItem>
+                <CarouselItem>Item 3</CarouselItem>
+                <CarouselItem>Item 4</CarouselItem>
+                <CarouselItem>Item 5</CarouselItem>
+            </Carousel>
         </div>
     )
 }
