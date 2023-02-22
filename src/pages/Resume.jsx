@@ -9,12 +9,12 @@ import {NavLink as Link} from "react-router-dom"
 import React, {useState, useEffect} from "react";
 
 const Resume = () => {
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
     const toggleTheme = () => {
-        if (theme === 'light') {
-            setTheme('dark')
+        if (theme === 'dark') {
+            setTheme('light')
         } else {
-            setTheme('light');
+            setTheme('dark');
         }
     };
     useEffect(()=> {

@@ -2,6 +2,22 @@
     background-color: black;
     color: #fff;
 
+    a {
+        text-decoration: none !important;
+        color: white !important;
+        margin-top: 10px;
+
+        .icon {
+            font-size: 20px;
+            margin-right: 15px;
+        }
+
+        span {
+            font-size: 18px;
+            font-weight: 600px !important;
+        }
+    }
+
         #homeBtn {
             background-color: black;
         }
@@ -21,7 +37,23 @@
 
 .light {
     background-color: #fff;
-    color: #333;
+    color: black;
+
+    a {
+        text-decoration: none !important;
+        color: Black !important;
+        margin-top: 10px;
+
+        .icon {
+            font-size: 20px;
+            margin-right: 15px;
+        }
+
+        span {
+            font-size: 18px;
+            font-weight: 600px !important;
+        }
+    }
 
     #homeBtn {
         background-color: #fff;
@@ -95,3 +127,42 @@
                 }
             }
     }
+
+    .contactContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: salmon;
+
+
+        .contactDiv {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 85vh;
+            width: 100%;
+
+            .itemContainer {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+    
+    
+                a {
+                    text-decoration: none !important;
+                    margin-top: 10px;
+    
+                    .icon {
+                        font-size: 20px;
+                        margin-right: 15px;
+                    }
+    
+                    span {
+                        font-size: 18px;
+                        font-weight: 600px !important;
+                    }
+                }
+            }
+        }
+    }
+    
