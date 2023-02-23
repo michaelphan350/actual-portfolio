@@ -1,3 +1,4 @@
+import Controller from "./assets/imagemap-controller.png"
 import Password from "./assets/password-generator.jpg"
 import Ecommerce from "./assets/e-commerce-back-end.png"
 import Spotify from "./assets/Capture1.JPG"
@@ -114,6 +115,14 @@ const Projects = () => {
                     <a href="https://guarded-atoll-65920.herokuapp.com/" target="_blank" rel="noreferrer noopener">
                         <p>Deployed Application/Video</p>
                     </a>
+                </div>
+                <div id="portfolioItems">
+                    <img src={Controller} alt="" />
+                    <p>Image mapping practice. Personal project where I created an image map over a controller image. Interacting with the image yields different actions.</p>
+                    <a href="https://github.com/michaelphan350/actual-portfolio/tree/main/src/components/Imagemap" target="_blank" rel="noreferrer noopener">
+                        <p>Github Repository</p>
+                    </a>
+                    <Link to='/controller' target="_blank" className="controllerLink">Deployed Application/Video</Link>
                 </div>
             </div>
 

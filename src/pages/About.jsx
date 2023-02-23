@@ -1,5 +1,6 @@
+import Headshot from "./assets/headshot.jpg"
 import Typewriter from "typewriter-effect"
-import Placeholderportrait from "./assets/placeholderPortrait.png"
+// import Placeholderportrait from "./assets/placeholderPortrait.png"
 import Sun from "./assets/sun_moon.jpeg"
 import Home from "./assets/home-button.png"
 import "./about.scss"
@@ -52,7 +53,7 @@ const About = () => {
         <div className="lrContainer">
             <div className="left">
                 <div className="imgContainer">
-                    <img src = {Placeholderportrait} href="" alt="Placeholder for person" id="portrait"/>
+                    <img src = {Headshot} href="" alt="Placeholder for person" id="portrait"/>
                 </div>
                 <p className="aboutText">I am a 28 year old full-stack web developer. I completed a completed a bootcamp offered through the University of Arizona where we touched on both front and back end development topics such as: Javascript, React, SQL. I'm currently freelancing while continually looking for jobs in order to improve my skillset and experiences.</p>
                 <div className="strengthsDiv">
