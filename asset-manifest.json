@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9460be1.css",
+    "main.js": "/static/js/main.e48f6c73.js",
+    "static/media/lunar-controller.jpg": "/static/media/lunar-controller.8837d38c5f24559c93de.jpg",
+    "index.html": "/index.html",
+    "main.e9460be1.css.map": "/static/css/main.e9460be1.css.map",
+    "main.e48f6c73.js.map": "/static/js/main.e48f6c73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9460be1.css",
+    "static/js/main.e48f6c73.js"
+  ]
+}
