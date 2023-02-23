@@ -92,7 +92,7 @@ const Projects = () => {
                     <a href="https://github.com/michaelphan35/project-mern" target="_blank" rel="noreferrer noopener">
                         <p>Github Repository</p>
                     </a>
-                    <a href="*" target="_blank" rel="noreferrer noopener">
+                    <a href="#" target="_blank" rel="noreferrer noopener">
                         <p>Deployed Application/Video</p>
                     </a>
                 </div>
@@ -112,7 +112,7 @@ const Projects = () => {
                     <a href="https://github.com/michaelphan35/web-dev-social" target="_blank" rel="noreferrer noopener">
                         <p>Github Repository</p>
                     </a>
-                    <a href="*" target="_blank" rel="noreferrer noopener">
+                    <a href="#" target="_blank" rel="noreferrer noopener">
                         <p>Deployed Application/Video</p>
                     </a>
                 </div>
@@ -122,7 +122,7 @@ const Projects = () => {
                     <a href="https://github.com/michaelphan350/actual-portfolio/tree/main/src/components/Imagemap" target="_blank" rel="noreferrer noopener">
                         <p>Github Repository</p>
                     </a>
-                    <Link to='*' target="_blank" className="controllerLink">Deployed Application/Video</Link>
+                    <Link to='#' target="_blank" className="controllerLink">Deployed Application/Video</Link>
                 </div>
             </div>
 
