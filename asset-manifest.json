@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/actual-portfolio/static/css/main.60aed5ca.css",
-    "main.js": "/actual-portfolio/static/js/main.aa158e10.js",
+    "main.js": "/actual-portfolio/static/js/main.e6921b8d.js",
     "static/media/imagemap-controller.png": "/actual-portfolio/static/media/imagemap-controller.3c7a0dadd10ccd94a488.png",
     "static/media/General-resume-ss.png": "/actual-portfolio/static/media/General-resume-ss.57e8cf7c15b2338ab543.png",
     "static/media/Tech-resume-ss.png": "/actual-portfolio/static/media/Tech-resume-ss.eb2953a31335a926866c.png",
@@ -16,10 +16,10 @@
     "static/media/lunar-controller.jpg": "/actual-portfolio/static/media/lunar-controller.8837d38c5f24559c93de.jpg",
     "index.html": "/actual-portfolio/index.html",
     "main.60aed5ca.css.map": "/actual-portfolio/static/css/main.60aed5ca.css.map",
-    "main.aa158e10.js.map": "/actual-portfolio/static/js/main.aa158e10.js.map"
+    "main.e6921b8d.js.map": "/actual-portfolio/static/js/main.e6921b8d.js.map"
   },
   "entrypoints": [
     "static/css/main.60aed5ca.css",
-    "static/js/main.aa158e10.js"
+    "static/js/main.e6921b8d.js"
   ]
 }
