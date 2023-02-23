@@ -8,14 +8,13 @@
 }
 
 .carousel-item {
+    overflow: hidden;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    background-color: green;
     color: #fff;
+    width: 100%;       
 }
-
 .indicators {
     display: flex;
     justify-content: center;
@@ -29,3 +28,4 @@
     background-color: green;
     color: #fff;
 }
+

@@ -10,6 +10,7 @@ export const CarouselItem = ({ children, width }) => {
     );
 };
 
+
 const Carousel = ({ children }) => {
     const [activeIndex,  setActiveIndex] = useState(0);
     const [paused, setPaused ] = useState(false);
@@ -29,14 +30,14 @@ const Carousel = ({ children }) => {
             if (!paused) {
                 updateIndex(activeIndex + 1);
             }
-        }, 2000);
+        }, 3000);
 
         return () => {
             if (interval) {
                 clearInterval(interval);
             }
         };
-    });
+    }); 
 
     const handlers = useSwipeable({
         onSwipedLeft: () => updateIndex(activeIndex +1),
@@ -56,7 +57,7 @@ const Carousel = ({ children }) => {
                     return React.cloneElement(child, {width : "100%"});
                 })}
             </div>
-            <div className="indicators">
+            {/* <div className="indicators">
                 <button onClick={() => {
                     updateIndex(activeIndex -1);
                 }}
@@ -81,7 +82,7 @@ const Carousel = ({ children }) => {
                 >
                     Next
                 </button>
-            </div>
+            </div> */}
         </div>
     )
 }
