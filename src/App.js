@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path='/' exact element={<Home />} />
+        <Route exact path='https://michaelphan350.github.io/actual-portfolio/' exact element={<Home />} />
         <Route path='/about' element={<About/>} />
         <Route path='/projects' element={<Projects/>} />
         <Route path='/resume' element={<Resume/>} />
