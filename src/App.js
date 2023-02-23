@@ -1,5 +1,5 @@
 import Home from "./pages/About"
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
@@ -13,14 +13,14 @@ function App() {
   
   return (
     <HashRouter>
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/projects' component={Projects} />
-        <Route path='/resume' component={Resume} />
-        <Route path='/contacts' component={Contacts} />
-        <Route path='/controller' component={Controller} />
-    </Switch>
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/projects' element={<Projects/>} />
+        <Route path='/resume' element={<Resume/>} />
+        <Route path='/contacts' element={<Contacts/>} />
+        <Route path='/controller' element={<Controller/>} />
+    </Routes>
     </HashRouter>
   );
 }
