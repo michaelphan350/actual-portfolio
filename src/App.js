@@ -1,4 +1,4 @@
-import Home from "./pages"
+import Home from "./pages/About"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path='https://michaelphan350.github.io/actual-portfolio/' exact element={<Home />} />
+        <Route exact path='/' exact element={<Home />} />
         <Route path='/about' element={<About/>} />
         <Route path='/projects' element={<Projects/>} />
         <Route path='/resume' element={<Resume/>} />
