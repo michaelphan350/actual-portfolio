@@ -1,7 +1,8 @@
 // import Nav from "../components/Nav/Nav";
-import Imagemap from "../components/Imagemap/Imagemap";
+// import Imagemap from "../components/Imagemap/Imagemap";
 // import Menu from "../components/menu/Menu";
 import {useState} from "react"
+import About from "./About"
 
 /*const Home = () => {
 
@@ -22,7 +23,7 @@ const Home = () => {
     return (
         <div className="App">
             <div>
-              <Imagemap menuOpen = {menuOpen} setMenuOpen={setMenuOpen}/>
+              <About menuOpen = {menuOpen} setMenuOpen={setMenuOpen}/>
             </div>
         </div>
     )
