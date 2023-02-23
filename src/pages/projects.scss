@@ -43,60 +43,84 @@
         background-color: #fff;
     }
 }
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
     .navDiv {
         display: flex;
         flex-direction: row;
         text-align: center;
         align-items: center;
         justify-content: flex-start;
+    
+        @media (max-width: 576px) {
+            justify-content: space-around;
+        }
 
+        @media (max-width: 390px) {
+            justify-content: space-around;
+            
+        }
+    
             .toggleBtn {
                 width: 10%;
-
+    
                 .dayNight {
                     border: none;
                     padding: 0;
                 }
-
+    
                 #toggle {
                     width: 100%;
                     height: 50px;
                 }
             }
-
+    
             .homeButton {
                 width: 10%;
-
+    
                 #homeBtn {
                     border: none;
                     padding: 0;
                 }
-
+    
                 #home {
                     width: 100%;
                     height: 30px;
                 }
             }
-
+    
             h1 {
                 width: 30%;
-            }
 
+                @media (max-width: 576px){
+                    font-size: 20px;
+                }
+            }
+    
             .menuLinks {
                 width: 30%;
                 display: flex;
                 justify-content: space-evenly;
-
+                flex-direction: column;
+    
                 ul {
                     width:100%;
                     display: flex;
                     list-style: none;
                     flex-direction: row;
                     justify-content: space-between;
-
+    
+                    @media (max-width: 576px) {
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+    
                     li {
                         margin-bottom: 0;
-
+    
                         a {
                             font-size: inherit;
                             color: inherit;
@@ -106,6 +130,8 @@
                 }
             }
     }
+}
+
 
 #portfolioContainer {
     width: 100%;
@@ -139,6 +165,8 @@
 
         a {
             margin-top: 0px;
+            display: flex;
+            justify-content: center;
         }
     }
 }

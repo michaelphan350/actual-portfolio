@@ -22,7 +22,7 @@ const Contacts = () => {
         document.body.className = theme;
     }, [theme]);
     return (
-        <div className={`contacts ${theme}`}>
+        <div className="contacts">
              <div className="navDiv">
                 <div className="toggleBtn">
                     <button className="dayNight" onClick={toggleTheme}>

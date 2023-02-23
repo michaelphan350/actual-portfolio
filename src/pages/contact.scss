@@ -63,13 +63,26 @@
         background-color: #fff;
     }
 }
-    
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
     .navDiv {
         display: flex;
         flex-direction: row;
         text-align: center;
         align-items: center;
         justify-content: flex-start;
+
+        @media (max-width: 576px) {
+            justify-content: space-around;
+        }
+
+        @media (max-width: 390px) {
+            justify-content: space-around;
+            
+        }
 
             .toggleBtn {
                 width: 10%;
@@ -101,12 +114,17 @@
 
             h1 {
                 width: 30%;
+
+                @media (max-width: 576px){
+                    font-size: 20px;
+                }
             }
 
             .menuLinks {
                 width: 30%;
                 display: flex;
                 justify-content: space-evenly;
+                flex-direction: column;
 
                 ul {
                     width:100%;
@@ -114,6 +132,11 @@
                     list-style: none;
                     flex-direction: row;
                     justify-content: space-between;
+
+                    @media (max-width: 576px) {
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
 
                     li {
                         margin-bottom: 0;
@@ -127,6 +150,7 @@
                 }
             }
     }
+}
 
     .contactContainer {
         display: flex;
