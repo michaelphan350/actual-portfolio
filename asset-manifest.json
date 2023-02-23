@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9460be1.css",
-    "main.js": "/static/js/main.e48f6c73.js",
-    "static/media/lunar-controller.jpg": "/static/media/lunar-controller.8837d38c5f24559c93de.jpg",
-    "index.html": "/index.html",
-    "main.e9460be1.css.map": "/static/css/main.e9460be1.css.map",
-    "main.e48f6c73.js.map": "/static/js/main.e48f6c73.js.map"
+    "main.css": "/actual-portfolio/home,/static/css/main.e819323b.css",
+    "main.js": "/actual-portfolio/home,/static/js/main.d3ea9181.js",
+    "static/media/imagemap-controller.png": "/actual-portfolio/home,/static/media/imagemap-controller.3c7a0dadd10ccd94a488.png",
+    "static/media/General-resume-ss.png": "/actual-portfolio/home,/static/media/General-resume-ss.57e8cf7c15b2338ab543.png",
+    "static/media/Tech-resume-ss.png": "/actual-portfolio/home,/static/media/Tech-resume-ss.eb2953a31335a926866c.png",
+    "static/media/social-api.png": "/actual-portfolio/home,/static/media/social-api.3e2e943d700c1dc43746.png",
+    "static/media/e-commerce-back-end.png": "/actual-portfolio/home,/static/media/e-commerce-back-end.b5c3ca01173ccc4e1428.png",
+    "static/media/web-dev-social.png": "/actual-portfolio/home,/static/media/web-dev-social.0fa79949490c07b69216.png",
+    "static/media/headshot.jpg": "/actual-portfolio/home,/static/media/headshot.4585b6ae382f179fb5ef.jpg",
+    "static/media/phan.michael.resume.pdf": "/actual-portfolio/home,/static/media/phan.michael.resume.2e9ec131ce6633a59a6e.pdf",
+    "static/media/Resume-Michael.Phan.pdf": "/actual-portfolio/home,/static/media/Resume-Michael.Phan.4806490e42bcd704f231.pdf",
+    "static/media/password-generator.jpg": "/actual-portfolio/home,/static/media/password-generator.be76239a2ad1c3c8bfd1.jpg",
+    "static/media/Capture1.JPG": "/actual-portfolio/home,/static/media/Capture1.33165242131322a154cb.JPG",
+    "static/media/lunar-controller.jpg": "/actual-portfolio/home,/static/media/lunar-controller.8837d38c5f24559c93de.jpg",
+    "index.html": "/actual-portfolio/home,/index.html",
+    "main.e819323b.css.map": "/actual-portfolio/home,/static/css/main.e819323b.css.map",
+    "main.d3ea9181.js.map": "/actual-portfolio/home,/static/js/main.d3ea9181.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9460be1.css",
-    "static/js/main.e48f6c73.js"
+    "static/css/main.e819323b.css",
+    "static/js/main.d3ea9181.js"
   ]
 }
