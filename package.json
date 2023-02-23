@@ -2,7 +2,7 @@
   "name": "actual-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://michaelphan350.github.io/actual-portfolio",
+  "homepage": "https://michaelphan350.github.io/actual-portfolio/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
